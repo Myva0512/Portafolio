@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Arquitecto De Software</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="sticky-top navbar navbar-expand-lg navbar-light" id="mainNav" style="background-color: aqua ;">
+        <!-- Contenido de la barra de navegación -->
+        <a class="navbar-brand" href="#">Mi Portafolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#sobre-mi">Sobre Mí</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portafolio">Portafolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sobre Mí -->
+    <section id="sobre-mi" class="py-5 bg-dark text-white">
+        <!-- Contenido de la sección Sobre Mí -->
+        <div class="container about">
+            <div class="row align-items-center">
+                <div class="col-md-8 ">
+                    <h3>¡Hola! Soy Yurany Velasquez</h3>
+                    <p>¡Bienvenido a mi portafolio! Soy una Arquitecta de software con 1 año de experiencia en el desarrollo y gestión de soluciones de sosftware.
+                        tengo una amplia experiencia en una variedad de tecnologías y metodologías, y estoy apasionada por crear software que sea a la vez funcional y elegante.
+                    </p>
+                    <!-- agrega información acera de tu perfil profesional (lo que eres o esperas ser) -->
+
+                    <!-- Agrega el enlace de descarga de la hoja de vida con un ícono -->
+                    <a href="./recursos/HDV.pdf" download>
+                        <i class="fa fa-download"></i> Descargar Hoja de Vida
+                    </a>
+                </div>
+                <div class="col-md-4">                    
+                    <img src="./recursos/yo.jpg" alt="Imagen de Perfil" class="img-fluid rounded-circle">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portafolio -->
+    <section id="portafolio" class="py-5 bg-dark text-white">
+        <!-- Contenido de la sección Portafolio -->
+        <div class="container">
+            <h2 class="text-center mb-4">Portafolio</h2>
+            
+            <div class="row " >
+                <div class="col-md-4" >
+                    <div class="card h-100" >
+                        <img src="./recursos/ProjectPipe.jpg" class="card-img-top" alt="Proyecto 1">
+                        <div class="card-body bg-dark text-white">
+                            <h5 class="card-title">ProjectPipe</h5>
+                            <p class="card-text">Project Pipe es una plataforma para la gestión y producción de proyectos con una propuesta innovadora la cual ayuda a fomentar la participación activa de los trabajadores dentro de cada equipo.</p>
+                            <a href="https://drive.google.com/file/d/1QrWnaudPhMw92fWKnTGxIE2y29j-iXW5/view?usp=sharing">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="./recursos/D todes.jpg" class="card-img-top" alt="Proyecto 2">
+                        <div class="card-body bg-dark text-white">
+                            <h5 class="card-title">D todes</h5>
+                            <p class="card-text">D todes es un proyecto de ecommerce que busca revolucionar la forma en que las personas compran y venden productos.</p>
+                            <a href="https://drive.google.com/file/d/1cwZypuEd138irY-h5XzW71thd4AAK_tI/view?usp=sharing">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="./recursos/Creative .jpg" class="card-img-top" alt="Proyecto 3">
+                        <div class="card-body bg-dark text-white">
+                            <h5 class="card-title">Creative</h5>
+                            <p class="card-text">Creative es una empresa de tecnología que tiene como objetivo impulsar la creatividad y la innovación a través de soluciones tecnológicas disruptivas y accesibles.</p>
+                            <a href="http://">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="bg-dark py-5 text-white">
+        <!-- Contenido de la sección Contacto -->
+        <div class="container">
+            <h2 class="text-center mb-4">Contacto</h2>
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <label for="nombre">Nombre</label>
+                            <input required type="text" id="nombre" name="nombre" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo Electrónico</label>
+                            <input required type="email" id="email" name="email" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea required name="mensaje" id="mensaje" rows="5" class="form-control"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-info btn-block">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer class="bg-dark py-4 text-white">
+        <!-- Contenido del pie de página -->
+        <div class="container text-center">
+            <!-- Enlaces de Redes Sociales -->
+            <div class="social-icons text-white">
+                <a href="https://www.linkedin.com/in/mildrey-yurany-velasquez-arango-363513213/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/Myva0512" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+            <!-- Información adicional del pie de página -->
+            <p>&copy; 2024 - Todos los derechos reservados</p>
+        </div>
+    </footer>
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
