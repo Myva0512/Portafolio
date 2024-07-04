@@ -490,7 +490,7 @@ html{
     max-width: 340px;
     height: fit-content;
     margin: 10px;
-    cursor: pointer;
+    cursor: auto;
 }
 .portfolio .galeria .proyecto img{
     width: 100%;
