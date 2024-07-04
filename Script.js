@@ -69,6 +69,7 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     emailjs.send('service_z0jqxxf', 'template_cs2ww5f', templateParams)
         .then(function(response) {
            console.log('SUCCESS!', response.status, response.text);
+            alert('¡Mensaje enviado!');
         }, function(error) {
            console.log('FAILED...', error);
         });
